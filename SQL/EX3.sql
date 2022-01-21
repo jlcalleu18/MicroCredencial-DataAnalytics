@@ -61,8 +61,8 @@ SELECT DISTINCT state FROM purchases;
 
 -- 1. You can use DISTINCT on multiple columns as well.
 --    Use DISTINCT on the purchases table to see which states each user has made orders from.
-SELECT DISTINCT state, user_id, name  FROM purchases;
+SELECT DISTINCT state, user_id  FROM purchases;
 
 -- 2. Modify the query above to ORDER BY user_id, so you can see the data user-by-user.
-SELECT DISTINCT state, user_id, name  FROM purchases
+SELECT DISTINCT state, user_id  FROM purchases
 order by user_id
