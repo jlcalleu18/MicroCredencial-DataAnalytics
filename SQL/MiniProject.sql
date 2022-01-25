@@ -20,7 +20,7 @@ CREATE TABLE Reviewers(
 
 INSERT INTO reviewers(name, rating, text_review, video_id)
 VALUES ('Jorge Calle', '5', 'I like it!', 1),
-('Mezbahuddin', '4', 'Really good trailer!', 2);
+('Mezbahuddin Prottoy', '4', 'Really good trailer!', 2);
 
 Select * FROM video as v
 JOIN reviewers as r
