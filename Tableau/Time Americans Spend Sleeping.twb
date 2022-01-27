@@ -472,8 +472,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98120' id='11' param='vert' type-v2='layout-flow' w='98986' x='507' y='940'>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98120' id='15' param='vert' type-v2='layout-flow' w='98986' x='507' y='940'>
                 <zone fixed-size='188' h='24530' id='3' is-fixed='true' name='AVG Sleeping by sex' w='88840' x='507' y='940'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -651,7 +651,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='10' />
+      <active id='-1' />
       <simple-id uuid='{3DC39102-92E3-4C63-B935-CAEA7D7B1E03}' />
     </window>
   </windows>
